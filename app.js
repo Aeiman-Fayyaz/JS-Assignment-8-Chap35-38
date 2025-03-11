@@ -293,3 +293,24 @@ document.write("The occurence of o in this string is " + output)*/
 // Area of circle = πr2
 
 // ANSWER
+
+/*let radiusOfCircle = Number(prompt("Enter a number \nFind out the circumference"))
+
+function calcCircumference(radiusOfCircle) {
+    let resultOfRadius = 2 * 3.142 * radiusOfCircle
+    document.write("<h1>Radius of Circle</h1>" + "<br/>" + "<h4>Definition:</h4>" +
+    "Radius of a circle is the distance from the center of the circle to any point on it's circumference." + "<br/>" + 
+    "<h4>Your given number:</h4>" + radiusOfCircle + "<br/>" + "<h4>Circumference:</h4>" + "<br/>" + "The circumference is " + resultOfRadius)
+    
+}
+
+function calcArea(radiusOfCircle) {
+    let resultOfArea = 3.142 * radiusOfCircle * radiusOfCircle
+    document.write("<h1>Radius of Area</h1>" + "<br/>" + "<h4>Definition:</h4>" +
+        "Radius of area " + "refers to the distance from the center of a circle to its edge" + "<br/>" + 
+        "<h4>Your given number:</h4>" + radiusOfCircle + "<br/>" + "<h4>Circumference:</h4>" + "<br/>" + "The circumference is " + resultOfArea)
+    
+}
+
+calcCircumference(radiusOfCircle)
+calcArea(radiusOfCircle)*/
