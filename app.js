@@ -166,18 +166,18 @@ counting(startNum , endNum)*/
 
 // ANSWER
 
-document.write("<h1>Calculates the area of a rectangle</h1>")
+// document.write("<h1>Calculates the area of a rectangle</h1>")
 
-let width = Number(prompt("Enter a width of a rectangle"))
-let height = Number(prompt("Enter a height of a rectangle"))
+// let width = Number(prompt("Enter a width of a rectangle"))
+// let height = Number(prompt("Enter a height of a rectangle"))
 
-function calculateArea(width , height) {
-    let area = width * height
-    return area
-}
+// function calculateArea(width , height) {
+//     let area = width * height
+//     return area
+// }
 
-let resultArea = calculateArea(width , height)
-document.write(resultArea)
+// let resultArea = calculateArea(width , height)
+// document.write(resultArea)
 
 // QUESTION 10
 // Write a JavaScript function that checks whether a passed
@@ -186,6 +186,26 @@ document.write(resultArea)
 // forward, e.g., madam.
 
 // ANSWER
+
+/*document.write("<h1>Palindrome Checker</h1>")
+
+let userWord = prompt("Enter a palendrome word (Mom - Mom)").toLowerCase()
+
+function palindromeChecker(palindromeWord) {
+    let splitWord = palindromeWord.split("")
+    let reversedWord = splitWord.reverse()
+    let joinWord = reversedWord.join("")
+    if(joinWord == palindromeWord){
+        document.write("<h4>Word:</h4>" + palindromeWord + "<h4>Output:</h4>" + 
+        palindromeWord + " is palindrome word")
+    }
+    else{
+        document.write("<h4>Word:</h4>" + palindromeWord + "<h4>Output:</h4>" +
+        palindromeWord + " is not a palindrome word")
+    }
+}
+
+palindromeChecker(userWord)*/
 
 // QUESTION 11
 // Write a JavaScript function that accepts a string as a
@@ -196,6 +216,20 @@ document.write(resultArea)
 
 // ANSWER
 
+/*let userStr = prompt("Enter your paragraph to convert in Title Case \nJust like that (the quick brown fox) \nShown you like this(The Quick Brown Fox)")
+
+let arrayJoin = [] 
+
+function titleCasePara(userStr) {
+    let arrayString = userStr.split(" ")
+    for (let i = 0 ; i < arrayString.length ; i++){
+        arrayJoin.push(arrayString[i][0].toUpperCase() + arrayString[i].slice(1).toLowerCase())
+    }
+}
+
+titleCasePara(userStr)
+document.write("<h1>Title Case</h1>" , "<h4>Your Paragraph:</h4>" , userStr , "<h4>Convert to Title Case:</h4>" , arrayJoin.join(" "));*/
+
 // QUESTION 12
 // Write a JavaScript function that accepts a string as a
 // parameter and find the longest word within the string.
@@ -204,6 +238,23 @@ document.write(resultArea)
 
 // ANSWER
 
+/*let longString = "Web Development Tutorial";
+
+function longestString(str) {
+  let words = str.split(" ");
+  let firstLongest = words[0].length;
+  for (let i = 0; i < words.length; i++) {
+    if (words[i].length > firstLongest) {1
+      firstLongest = words[i].length;
+      document.write("The longest word is " + words[i])
+
+    }
+}
+  console.log(firstLongest);
+}
+
+longestString(longString);*/
+
 // QUESTION 13
 // Write a JavaScript function that accepts two arguments, a
 // string and a letter and the function will count the number of
@@ -211,6 +262,20 @@ document.write(resultArea)
 // Sample arguments : 'JSResourceS.com', 'o'
 
 // ANSWER
+
+/*function count(str, letter) {
+    let find = 0;   
+    for (let i = 0; i < str.length; i++) {
+        if (str[i] === letter) {
+            find += 1;
+        }
+    }
+    return find
+}
+let str = "JSResourceS.com";
+let letter = "o"
+let output = count(str, letter);
+document.write("The occurence of o in this string is " + output)*/
 
 // QUESTION 14
 // The Geometrizer
